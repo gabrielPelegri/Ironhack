@@ -1,12 +1,12 @@
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
+	background-color: #0f0e49;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
   
   nav ul {
     display: flex;
@@ -28,7 +28,7 @@ header {
   main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
   }
@@ -39,13 +39,23 @@ header {
     padding: 0;
   }
   
+  .ul_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    width: 600px;
+    height: 100%;
+  }
+
   li {
     background-color: #f2f2f2;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin: 10px;
     padding: 20px;
-    width: 300px;
+    width: 560px;
   }
   
   li h3 {
@@ -70,9 +80,17 @@ header {
   
 
   footer {
-    background-color: #333;
+    background-color: #476b88;
     color: #fff;
     padding: 10px;
     text-align: center;
   }
+
+  body{
+    background-color: #2a475e;
+  }
+
+h2{
+  color: #fff;
+}
   
