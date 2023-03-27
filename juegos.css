@@ -92,10 +92,17 @@ section p {
 	line-height: 1.5;
 }
 
-/* Estilo del pie de página */
 footer {
 	background-color: #0f0e49;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
+}
+.conf{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
 }
