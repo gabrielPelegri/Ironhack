@@ -1,19 +1,19 @@
 
 
-/* Reset de los valores predeterminados */
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-/* Fondo de la página */
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f2f2f2;
 }
 
-/* Estilo del encabezado */
+
 header {
 	background-color: #0f0e49;
 	color: #fff;
